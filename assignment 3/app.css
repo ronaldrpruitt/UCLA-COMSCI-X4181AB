@@ -1,0 +1,38 @@
+
+body {
+    background-image: url(https://preview.redd.it/n4fzj627fxp31.jpg?width=640&crop=smart&auto=webp&s=5afbe659c0edd3d5182be0d57be3ff81519f179b);
+    background-size: 25%;
+}
+nav {
+    background-color: rgb(170, 105, 231);
+    text-align: center;
+}
+nav a {
+    display: block;
+    padding: 15x;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    text-decoration: none;
+    border: 1px dotted hotpink;
+    padding-top: 15px;
+  }
+  a:hover {
+    color: greenyellow;
+  }
+
+  @media (min-width: 500px) {
+      body {
+          background-size:100%
+      }
+    nav a {
+      display: inline;
+      margin-right: 15px;
+      border: none;
+      font-size: 20px;
+    }
+    a:hover {
+        color: burlywood;
+    }
+  }
